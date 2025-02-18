@@ -1,0 +1,126 @@
+body {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  margin: 0;
+
+  text-align: center;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+
+.upper-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.upper-container>div {
+  margin-bottom: 20px;
+}
+
+
+.search-container {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.search-input,
+.input-number {
+  /* height: 20px; */
+  margin-bottom: 7px;
+  width: 250px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 2px;
+  font-size: larger;
+}
+
+.input-number {
+  width: 150px;
+}
+
+
+
+.react_select {
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  color: black;
+}
+
+button {
+  cursor: pointer;
+}
+
+.flights-search-btn,
+.search-btn {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+
+}
+
+.flights-search-btn {
+  font-weight: bold;
+}
+
+.search-btn {
+  margin-left: 1px;
+  padding: 6px;
+}
+
+.flights-search-btn:hover,
+.search-btn:hover {
+  background-color: #1557b0;
+}
+
+
+.outside-day {
+  opacity: 0.3;
+}
+
+.date-picker {
+  padding: 5px;
+  margin-left: 10px;
+  font-size: larger;
+}
+
+.flights {
+  margin: 10px;
+  margin-bottom: 100px;
+}
+
+.flight {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: larger;
+  padding: 14px;
+  border: solid 1px;
+  border-color: rgb(90, 87, 87);
+}
+
+.flight:first-of-type,
+.flight:last-of-type {
+  border-radius: 5px;
+
+}
+
+.flight div:not(.airline-logo) {
+  width: 200px;
+  padding: 5px;
+}
+
+.airline-logo {
+  width: 50px;
+}
