@@ -123,9 +123,9 @@ function App() {
             set_airport={setDestination} />
         </div>
         <div>
-          <SelectPassengers min={1} placeholder={"No.adults" + " 1"} set_passengers={setPassengers} passenger_type={"adults"} />
-          <SelectPassengers min={0} placeholder={"No.children" + " 0"} set_passengers={setPassengers} passenger_type={"children"} />
-          <SelectPassengers min={0} placeholder={"No.infants" + " 0"} set_passengers={setPassengers} passenger_type={"infants"} />
+          <SelectPassengers min={1} placeholder={"No.adults" + " 1"} passengers={passengers} set_passengers={setPassengers} passenger_type={"adults"} />
+          <SelectPassengers min={0} placeholder={"No.children" + " 0"} passengers={passengers} set_passengers={setPassengers} passenger_type={"children"} />
+          <SelectPassengers min={0} placeholder={"No.infants" + " 0"} passengers={passengers} set_passengers={setPassengers} passenger_type={"infants"} />
         </div>
 
         <Select
